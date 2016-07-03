@@ -7,7 +7,7 @@ SOURCES += main.cpp
 RESOURCES += qml.qrc
 
 # Installation path
-# target.path =
+target.path = /tmp
 
 # Please do not modify the following two lines. Required for deployment.
 include(qtquick1applicationviewer/qtquick1applicationviewer.pri)
