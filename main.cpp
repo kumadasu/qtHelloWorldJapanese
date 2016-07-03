@@ -5,6 +5,10 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
+    QFont font;
+    font.setFamily("Sazanami Gothic");
+    app.setFont(font);
+
     QtQuick1ApplicationViewer viewer;
     viewer.addImportPath(QLatin1String("modules"));
     viewer.setOrientation(QtQuick1ApplicationViewer::ScreenOrientationAuto);

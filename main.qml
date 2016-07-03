@@ -12,7 +12,7 @@ Rectangle {
     }
 
     Text {
-        text: qsTr("Hello World")
+        text: qsTr("Hello Worldこんにちは世界")
         anchors.centerIn: parent
     }
 }
